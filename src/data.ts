@@ -69,11 +69,11 @@ export const DEPARTMENTS: Department[] = [
   },
   {
     id: 'jckj',
-    name: 'JC:KJ',
-    fullName: 'Jakarta City Kejaksaan Agung',
+    name: 'Jakarta Biro Anti Korupsi',
+    fullName: 'JKC:BAK',
     description: 'Lembaga yudikatif tertinggi yang mengadili perkara pidana dan perdata, menyusun undang-undang dasar kota, menyelenggarakan persidangan, serta menjamin keadilan hukum.',
     icon: '⚖️',
-    banner: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80',
+    banner: 'https://i.ibb.co.com/XfPPnWBj/Banner-BAK.png',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
@@ -87,7 +87,7 @@ export const DEPARTMENTS: Department[] = [
       'Memiliki rekam jejak integritas tinggi, objektif, dan adil.'
     ],
     discordRole: 'JC:KJ Jaksa Pratama',
-    discordUrl: 'https://discord.gg/jkcrp-kj'
+    discordUrl: 'https://discord.gg/S7Re7brYkq'
   }
 ];
 

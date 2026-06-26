@@ -1,6 +1,21 @@
 import React from 'react';
 import { DEPARTMENTS } from '../data';
-import { ArrowUpRight, ShieldCheck, HelpCircle } from 'lucide-react';
+import { ArrowUpRight, ShieldCheck, HelpCircle, Shield, Flame, Wrench, Scale } from 'lucide-react';
+
+const getDepartmentIcon = (id: string) => {
+  switch (id) {
+    case 'jkcpd':
+      return <Shield className="w-6 h-6 text-red-500 group-hover:text-red-400 transition-colors" />;
+    case 'jcfd':
+      return <Flame className="w-6 h-6 text-red-500 group-hover:text-red-400 transition-colors" />;
+    case 'jcdot':
+      return <Wrench className="w-6 h-6 text-red-500 group-hover:text-red-400 transition-colors" />;
+    case 'jckj':
+      return <Scale className="w-6 h-6 text-red-500 group-hover:text-red-400 transition-colors" />;
+    default:
+      return <ShieldCheck className="w-6 h-6 text-red-500 group-hover:text-red-400 transition-colors" />;
+  }
+};
 
 export default function DepartmentCard() {
   return (
@@ -39,8 +54,8 @@ export default function DepartmentCard() {
               {/* Department Body content */}
               <div className="p-5 sm:p-6 flex-grow flex flex-col text-left relative">
                 {/* Float-up Emoji Logo */}
-                <div className="w-12 h-12 rounded-xl bg-[#0A0F14]/90 glass border border-white/10 flex items-center justify-center text-2xl -mt-12 mb-4 relative z-10 shadow-lg group-hover:scale-110 group-hover:border-red-500/40 transition-transform">
-                  {dept.icon}
+                <div className="w-12 h-12 rounded-xl bg-[#0A0F14]/90 glass border border-white/10 flex items-center justify-center -mt-12 mb-4 relative z-10 shadow-lg group-hover:scale-110 group-hover:border-red-500/40 transition-transform">
+                  {getDepartmentIcon(dept.id)}
                 </div>
 
                 <div className="mb-2">

@@ -180,7 +180,7 @@ export default function App() {
             </div>
             <div className="p-4 bg-white/[0.01] rounded-xl border border-white/5">
               <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest block font-bold">In-Game Server Code</span>
-              <h3 className="text-lg sm:text-xl font-extrabold text-red-400 font-mono mt-1 uppercase tracking-wider">jkcrp</h3>
+              <h3 className="text-lg sm:text-xl font-extrabold text-red-400 font-mono mt-1 uppercase tracking-wider">jkcrpb</h3>
             </div>
           </div>
         </div>
@@ -262,7 +262,7 @@ export default function App() {
             <div className="glass p-5 rounded-xl space-y-2">
               <h4 className="font-bold text-white text-sm sm:text-base">Bagaimana cara join bermain di Jakarta City Roleplay?</h4>
               <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-                Caranya sangat mudah! Masuk ke game <strong className="text-white font-medium">Emergency Response: Liberty County (ER:LC)</strong> di Roblox. Klik menu private server, lalu ketik in-game server code resmi kami yaitu <strong className="text-red-500 font-mono uppercase font-bold">jkcrp</strong>. Selesai! Anda akan otomatis terhubung ke kota.
+                Caranya sangat mudah! Masuk ke game <strong className="text-white font-medium">Emergency Response: Liberty County (ER:LC)</strong> di Roblox. Klik menu private server, lalu ketik in-game server code resmi kami yaitu <strong className="text-red-500 font-mono uppercase font-bold">jkcrpb</strong>. Selesai! Anda akan otomatis terhubung ke kota.
               </p>
             </div>
 
