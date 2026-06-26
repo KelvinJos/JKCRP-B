@@ -1,0 +1,6 @@
+{
+  "name": "Jakarta City Roleplay",
+  "description": "Website resmi Jakarta City Roleplay (JKC:RP) - Komunitas roleplay Roblox ER:LC Indonesia terbaik dengan sistem ekonomi modern, pasar saham, dan departemen pemerintahan interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
