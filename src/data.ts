@@ -2,19 +2,19 @@ import { Department, Rule, Stock, FAQ, Announcement } from './types';
 
 export const DEPARTMENTS: Department[] = [
   {
-    id: 'jcpd',
+    id: 'jkcpd',
     name: 'Jakarta Police Departemet',
     fullName: 'Jakarta City Police Department',
     description: 'Menegakkan hukum, menertibkan lalu lintas, membasmi kriminalitas, melindungi keselamatan warga sipil, serta menjaga keamanan di seluruh area Jakarta City.',
     icon: '👮‍♂️',
-    banner: 'https://images.unsplash.com/photo-1595085731697-7c706852bb07?auto=format&fit=crop&q=80',
+    banner: 'https://i.ibb.co/Tq2QJBCY/Banner-JCPD.png',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
     bgGlow: 'rgba(239, 68, 68, 0.1)',
     recruitmentStatus: 'Open',
     requirements: [
-      'Warga Negara Jakarta City minimal berumur 15 tahun (OOC).',
+      'Tau Dasar-Dasar Roleplay',
       'Memiliki mic aktif & akun Discord yang terverifikasi.',
       'Memahami dasar-dasar Hukum Lalu Lintas dan Prosedur Penangkapan.',
       'Bersedia mengikuti pelatihan Akademi Kepolisian JC:PD.',
@@ -24,12 +24,12 @@ export const DEPARTMENTS: Department[] = [
     discordUrl: 'https://discord.gg/MV6cwv4qtC'
   },
   {
-    id: 'jcfd',
-    name: 'JC:FD',
+    id: 'jkcfd',
+    name: 'Jakarta Fire Departement',
     fullName: 'Jakarta City Fire Department',
     description: 'Menyediakan layanan tanggap darurat pemadaman kebakaran, penyelamatan bencana, serta perawatan medis darurat (EMS / Ambulans) yang cepat dan profesional.',
     icon: '🚒',
-    banner: 'https://images.unsplash.com/photo-1616790877028-1abf4d6d0c2e?auto=format&fit=crop&q=80',
+    banner: 'https://i.ibb.co.com/P7yb8Mx/Banner-JCFD.png',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
@@ -43,15 +43,15 @@ export const DEPARTMENTS: Department[] = [
       'Memahami SOP penanganan medis darurat (First Aid).'
     ],
     discordRole: 'JC:FD Candidate',
-    discordUrl: 'https://discord.gg/jkcrp-fd'
+    discordUrl: 'https://discord.gg/uhdndPC7Qy'
   },
   {
-    id: 'jcdot',
-    name: 'JC:DOT',
+    id: 'jkcdot',
+    name: 'Jakarta Departement of Transportation',
     fullName: 'Jakarta City Department of Transportation',
     description: 'Mengelola infrastruktur lalu lintas, melakukan derek kendaraan yang parkir liar atau mogok, mengamankan tempat kejadian perkara, serta memelihara fasilitas umum.',
     icon: '🚧',
-    banner: 'https://images.unsplash.com/photo-1517524285303-d6fc683cb79e?auto=format&fit=crop&q=80',
+    banner: 'https://i.ibb.co.com/0jFq70rv/Banner-DOT.png',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
@@ -68,12 +68,12 @@ export const DEPARTMENTS: Department[] = [
     discordUrl: 'https://discord.gg/jkcrp-dot'
   },
   {
-    id: 'jckj',
-    name: 'JC:KJ',
-    fullName: 'Jakarta City Kejaksaan Agung',
-    description: 'Lembaga yudikatif tertinggi yang mengadili perkara pidana dan perdata, menyusun undang-undang dasar kota, menyelenggarakan persidangan, serta menjamin keadilan hukum.',
+    id: 'jkcbak',
+    name: 'Biro Anti Korupsi',
+    fullName: 'Biro Anti Korupsi',
+    description: 'Lembaga yang menangani dan mengaudit kasus korupsi dalam sistem pemerintahan',
     icon: '⚖️',
-    banner: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80',
+    banner: 'https://i.ibb.co.com/XfPPnWBj/Banner-BAK.png',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
@@ -86,7 +86,7 @@ export const DEPARTMENTS: Department[] = [
       'Mampu menyusun dokumen dakwaan atau nota pembelaan hukum.',
       'Memiliki rekam jejak integritas tinggi, objektif, dan adil.'
     ],
-    discordRole: 'JC:KJ Jaksa Pratama',
+    discordRole: 'JKC:BAK',
     discordUrl: 'https://discord.gg/jkcrp-kj'
   }
 ];
