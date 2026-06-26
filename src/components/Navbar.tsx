@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Shield, ArrowUpRight, Menu, X } from 'lucide-react';
+import { WEBSITE_LOGO_URL } from '../data';
 
 interface NavbarProps {
   onNavClick: (sectionId: string) => void;
@@ -46,9 +47,18 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleItemClick('hero')}>
-            <div className="w-10 h-10 accent-gradient rounded-xl flex items-center justify-center font-bold text-white shadow-lg shadow-red-500/20 transition-transform hover:scale-105">
-              JCR
-            </div>
+            {WEBSITE_LOGO_URL ? (
+              <img
+                src={WEBSITE_LOGO_URL}
+                alt="Logo"
+                referrerPolicy="no-referrer"
+                className="w-10 h-10 rounded-xl object-contain shadow-lg shadow-red-500/20 transition-transform hover:scale-105"
+              />
+            ) : (
+              <div className="w-10 h-10 accent-gradient rounded-xl flex items-center justify-center font-bold text-white shadow-lg shadow-red-500/20 transition-transform hover:scale-105">
+                JCR
+              </div>
+            )}
             <div>
               <span className="font-extrabold text-xl tracking-tight text-white block">
                 JAKARTA CITY <span className="text-red-500">ROLEPLAY</span>

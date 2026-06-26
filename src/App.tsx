@@ -10,6 +10,7 @@ import DepartmentCard from './components/DepartmentCard';
 import RulesExplorer from './components/RulesExplorer';
 import AnnouncementBoard from './components/AnnouncementBoard';
 import MediaGallery from './components/MediaGallery';
+import { WEBSITE_LOGO_URL } from './data';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -290,9 +291,18 @@ export default function App() {
           {/* Logo column */}
           <div className="space-y-4 md:col-span-2">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 accent-gradient rounded-xl flex items-center justify-center font-bold text-white shadow-lg shadow-red-500/25">
-                JCR
-              </div>
+              {WEBSITE_LOGO_URL ? (
+                <img
+                  src={WEBSITE_LOGO_URL}
+                  alt="Logo"
+                  referrerPolicy="no-referrer"
+                  className="w-10 h-10 rounded-xl object-contain shadow-lg shadow-red-500/25 transition-transform hover:scale-105"
+                />
+              ) : (
+                <div className="w-10 h-10 accent-gradient rounded-xl flex items-center justify-center font-bold text-white shadow-lg shadow-red-500/25">
+                  JCR
+                </div>
+              )}
               <div>
                 <span className="font-extrabold text-xl tracking-tight text-white block">
                   JAKARTA CITY <span className="text-red-500">ROLEPLAY</span>

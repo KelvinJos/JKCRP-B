@@ -1,5 +1,8 @@
 import { Department, Rule, Stock, FAQ, Announcement } from './types';
 
+// paste your custom logo image URL here to replace the "JCR" text box
+export const WEBSITE_LOGO_URL = 'https://i.ibb.co.com/4n31jCJV/JKCRP-SERVER-B-LOGO.png'; 
+
 export const DEPARTMENTS: Department[] = [
   {
     id: 'jkcpd',

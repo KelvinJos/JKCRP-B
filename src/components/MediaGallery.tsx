@@ -11,9 +11,9 @@ interface GalleryImage {
 const GALLERY_IMAGES: GalleryImage[] = [
   {
     id: 1,
-    url: 'https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&q=80&w=1200',
-    title: 'Patroli Malam Sektor Semanggi',
-    caption: 'Dua unit armada Patroli Jalan Raya (PJR) dari JC:PD berkoordinasi menertibkan balap liar.'
+    url: 'https://i.ibb.co.com/DH1w4jKR/images-4.jpg',
+    title: '10+6=17',
+    caption: 'Hanya test, tudak bermaksud untuk membuat/bertujuan pada hal negatif'
   },
   {
     id: 2,
