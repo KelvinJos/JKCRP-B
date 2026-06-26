@@ -70,7 +70,7 @@ export default function MediaGallery() {
           <div
             key={img.id}
             onClick={() => setLightboxIndex(idx)}
-            className="group relative glass border border-white/5 rounded-2xl overflow-hidden aspect-video cursor-pointer shadow-md hover:shadow-xl hover:border-cyan-500/30 transition-all duration-300"
+            className="group relative glass border border-white/5 rounded-2xl overflow-hidden aspect-video cursor-pointer shadow-md hover:shadow-xl hover:border-red-500/30 transition-all duration-300"
           >
             {/* Image */}
             <img
@@ -82,11 +82,11 @@ export default function MediaGallery() {
             
             {/* Hover details overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-5 text-left">
-              <span className="text-[10px] text-cyan-400 font-mono font-bold uppercase tracking-wider mb-1 flex items-center gap-1">
+              <span className="text-[10px] text-red-400 font-mono font-bold uppercase tracking-wider mb-1 flex items-center gap-1">
                 <Camera className="w-3 h-3" />
                 Snapshot IC
               </span>
-              <h4 className="font-extrabold text-white text-base tracking-tight mb-1 group-hover:text-cyan-400 transition-colors">
+              <h4 className="font-extrabold text-white text-base tracking-tight mb-1 group-hover:text-red-400 transition-colors">
                 {img.title}
               </h4>
               <p className="text-slate-400 text-xs truncate max-w-full">
@@ -121,7 +121,7 @@ export default function MediaGallery() {
             {/* Prev arrow */}
             <button
               onClick={handlePrev}
-              className="absolute left-2 sm:-left-16 p-3 rounded-xl bg-white/5 border border-white/10 text-white hover:text-cyan-400 transition-all"
+              className="absolute left-2 sm:-left-16 p-3 rounded-xl bg-white/5 border border-white/10 text-white hover:text-red-400 transition-all"
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
@@ -139,7 +139,7 @@ export default function MediaGallery() {
             {/* Next arrow */}
             <button
               onClick={handleNext}
-              className="absolute right-2 sm:-right-16 p-3 rounded-xl bg-white/5 border border-white/10 text-white hover:text-cyan-400 transition-all"
+              className="absolute right-2 sm:-right-16 p-3 rounded-xl bg-white/5 border border-white/10 text-white hover:text-red-400 transition-all"
             >
               <ChevronRight className="w-6 h-6" />
             </button>

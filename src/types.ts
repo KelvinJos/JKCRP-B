@@ -12,6 +12,7 @@ export interface Department {
   recruitmentStatus: 'Open' | 'Closed';
   requirements: string[];
   discordRole: string;
+  discordUrl?: string;
 }
 
 export interface Rule {

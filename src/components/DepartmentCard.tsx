@@ -74,7 +74,7 @@ export default function DepartmentCard() {
                 {/* Direct Link to Discord for Registration */}
                 {isOpen ? (
                   <a
-                    href="https://discord.gg/jkcrp"
+                    href={dept.discordUrl || "https://discord.gg/jkcrp"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-3 bg-red-600/10 hover:bg-red-600 border border-red-500/30 hover:border-red-600 text-red-400 hover:text-white rounded-xl text-xs font-bold font-mono tracking-wider uppercase transition-all flex items-center justify-center gap-1.5 shadow-sm"

@@ -3,10 +3,10 @@ import { Department, Rule, Stock, FAQ, Announcement } from './types';
 export const DEPARTMENTS: Department[] = [
   {
     id: 'jcpd',
-    name: 'JC:PD',
+    name: 'Jakarta Police Departemet',
     fullName: 'Jakarta City Police Department',
     description: 'Menegakkan hukum, menertibkan lalu lintas, membasmi kriminalitas, melindungi keselamatan warga sipil, serta menjaga keamanan di seluruh area Jakarta City.',
-    icon: '🚓',
+    icon: '👮‍♂️',
     banner: 'https://images.unsplash.com/photo-1595085731697-7c706852bb07?auto=format&fit=crop&q=80',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
@@ -20,7 +20,8 @@ export const DEPARTMENTS: Department[] = [
       'Bersedia mengikuti pelatihan Akademi Kepolisian JC:PD.',
       'Loyal, disiplin tinggi, dan bebas dari catatan kriminal serius.'
     ],
-    discordRole: 'JC:PD Cadet'
+    discordRole: 'JC:PD Cadet',
+    discordUrl: 'https://discord.gg/MV6cwv4qtC'
   },
   {
     id: 'jcfd',
@@ -41,7 +42,8 @@ export const DEPARTMENTS: Department[] = [
       'Siap siaga dalam panggilan darurat medis atau kebakaran.',
       'Memahami SOP penanganan medis darurat (First Aid).'
     ],
-    discordRole: 'JC:FD Candidate'
+    discordRole: 'JC:FD Candidate',
+    discordUrl: 'https://discord.gg/jkcrp-fd'
   },
   {
     id: 'jcdot',
@@ -62,7 +64,8 @@ export const DEPARTMENTS: Department[] = [
       'Dapat menggunakan truk derek (Tow Truck) dengan lancar.',
       'Sopan, sabar, dan memiliki etos kerja yang tinggi.'
     ],
-    discordRole: 'JC:DOT Officer'
+    discordRole: 'JC:DOT Officer',
+    discordUrl: 'https://discord.gg/jkcrp-dot'
   },
   {
     id: 'jckj',
@@ -83,7 +86,8 @@ export const DEPARTMENTS: Department[] = [
       'Mampu menyusun dokumen dakwaan atau nota pembelaan hukum.',
       'Memiliki rekam jejak integritas tinggi, objektif, dan adil.'
     ],
-    discordRole: 'JC:KJ Jaksa Pratama'
+    discordRole: 'JC:KJ Jaksa Pratama',
+    discordUrl: 'https://discord.gg/jkcrp-kj'
   }
 ];
 

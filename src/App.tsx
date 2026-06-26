@@ -88,13 +88,15 @@ export default function App() {
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <button
-              onClick={() => handleScrollToSection('departemen')}
+            <a
+              href="https://discord.gg/jkcrp"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 accent-gradient text-white font-bold text-sm sm:text-base rounded-xl shadow-lg shadow-red-500/20 hover:shadow-red-500/40 transform hover:-translate-y-0.5 transition-all flex items-center gap-2"
             >
-              Daftar Instansi
+              Gabung Discord Utama
               <ArrowRight className="w-4 h-4" />
-            </button>
+            </a>
             <button
               onClick={() => handleScrollToSection('peraturan')}
               className="px-6 py-3 glass hover:bg-white/5 border border-white/10 text-slate-200 hover:text-white font-bold text-sm sm:text-base rounded-xl transition-all"
