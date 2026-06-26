@@ -10,7 +10,7 @@ import DepartmentCard from './components/DepartmentCard';
 import RulesExplorer from './components/RulesExplorer';
 import AnnouncementBoard from './components/AnnouncementBoard';
 import MediaGallery from './components/MediaGallery';
-import { WEBSITE_LOGO_URL } from './data';
+import { WEBSITE_LOGO_URL, DISCORD_MAIN_URL } from './data';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -90,7 +90,7 @@ export default function App() {
 
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
-              href="https://discord.gg/jkcrp"
+              href={DISCORD_MAIN_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 accent-gradient text-white font-bold text-sm sm:text-base rounded-xl shadow-lg shadow-red-500/20 hover:shadow-red-500/40 transform hover:-translate-y-0.5 transition-all flex items-center gap-2"
@@ -165,7 +165,7 @@ export default function App() {
         {/* Historical card themed exactly like screenshot */}
         <div className="max-w-3xl mx-auto glass rounded-2xl p-6 sm:p-10 text-center space-y-6 relative overflow-hidden shadow-lg">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-transparent border border-white/10 text-slate-400 font-mono text-xs font-bold rounded-full uppercase tracking-wider">
-            📅 EST. 22 NOVEMBER 2023
+            📅 EST. 18 JUNI 2026
           </div>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl mx-auto">
@@ -177,7 +177,7 @@ export default function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 border-t border-white/5 pt-6">
             <div className="p-4 bg-white/[0.01] rounded-xl border border-white/5">
               <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest block font-bold">Tanggal Berdiri</span>
-              <h3 className="text-lg sm:text-xl font-extrabold text-white font-mono mt-1">22 November 2023</h3>
+              <h3 className="text-lg sm:text-xl font-extrabold text-white font-mono mt-1">18 Juni 2026</h3>
             </div>
             <div className="p-4 bg-white/[0.01] rounded-xl border border-white/5">
               <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest block font-bold">In-Game Server Code</span>
@@ -332,7 +332,7 @@ export default function App() {
           <div className="space-y-4">
             <h4 className="text-xs font-extrabold text-white uppercase tracking-widest font-mono">Tautan Penting</h4>
             <ul className="space-y-2 text-xs text-slate-400">
-              <li><a href="https://discord.gg/jkcrp" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors">Gabung Discord Resmi</a></li>
+              <li><a href={DISCORD_MAIN_URL} target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors">Gabung Discord Resmi</a></li>
               <li><a href="https://trakteer.id/jkcrp" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors">Trakteer / Donasi Server</a></li>
               <li><a href="https://roblox.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors">Roblox Group JKC</a></li>
             </ul>

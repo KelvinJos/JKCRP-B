@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Shield, ArrowUpRight, Menu, X } from 'lucide-react';
-import { WEBSITE_LOGO_URL } from '../data';
+import { WEBSITE_LOGO_URL, DISCORD_MAIN_URL } from '../data';
 
 interface NavbarProps {
   onNavClick: (sectionId: string) => void;
@@ -87,7 +87,7 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
           {/* CTA Discord */}
           <div className="hidden md:block">
             <a
-              href="https://discord.gg/jkcrp"
+              href={DISCORD_MAIN_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="accent-gradient inline-flex items-center gap-2 text-white font-bold text-sm px-6 py-2.5 rounded-xl transition-all duration-200 transform hover:-translate-y-0.5 shadow-lg shadow-red-900/30"
@@ -132,7 +132,7 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
 
           <div className="mt-auto">
             <a
-              href="https://discord.gg/jkcrp"
+              href={DISCORD_MAIN_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="accent-gradient flex items-center justify-center gap-2 text-white font-bold w-full py-3 rounded-xl transition-all shadow-lg"

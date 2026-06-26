@@ -3,6 +3,9 @@ import { Department, Rule, Stock, FAQ, Announcement } from './types';
 // paste your custom logo image URL here to replace the "JCR" text box
 export const WEBSITE_LOGO_URL = 'https://i.ibb.co.com/4n31jCJV/JKCRP-SERVER-B-LOGO.png'; 
 
+// Paste your main Discord server invite link here (for general buttons like "Gabung Discord Utama")
+export const DISCORD_MAIN_URL = 'https://discord.gg/v9Qsmbc2kp';
+
 export const DEPARTMENTS: Department[] = [
   {
     id: 'jkcpd',
@@ -68,7 +71,7 @@ export const DEPARTMENTS: Department[] = [
       'Sopan, sabar, dan memiliki etos kerja yang tinggi.'
     ],
     discordRole: 'JC:DOT Officer',
-    discordUrl: 'https://discord.gg/jkcrp-dot'
+    discordUrl: 'https://discord.gg/Yhdg7bXqTe'
   },
   {
     id: 'jckj',
