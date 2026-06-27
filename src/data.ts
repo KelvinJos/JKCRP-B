@@ -13,7 +13,7 @@ export const DEPARTMENTS: Department[] = [
     fullName: 'JKC:PD',
     description: 'Menegakkan hukum, menertibkan lalu lintas, membasmi kriminalitas, melindungi keselamatan warga sipil, serta menjaga keamanan di seluruh area Jakarta City.',
     icon: '👮‍♂️',
-    banner: 'https://i.ibb.co.com/Tq2QJBCY/Banner-JCPD.png',
+    banner: 'https://i.ibb.co.com/W96VhkF/Banner-JCPD-1.webp',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
@@ -35,7 +35,7 @@ export const DEPARTMENTS: Department[] = [
     fullName: 'JKC:FD',
     description: 'Menyediakan layanan tanggap darurat pemadaman kebakaran, penyelamatan bencana, serta perawatan medis darurat (EMS / Ambulans) yang cepat dan profesional.',
     icon: '🚒',
-    banner: 'https://i.ibb.co.com/P7yb8Mx/Banner-JCFD.png',
+    banner: 'https://i.ibb.co.com/hFR04NXY/Banner-JCFD.webp',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
@@ -57,7 +57,7 @@ export const DEPARTMENTS: Department[] = [
     fullName: 'JKC-DOT',
     description: 'Mengelola infrastruktur lalu lintas, melakukan derek kendaraan yang parkir liar atau mogok, mengamankan tempat kejadian perkara, serta memelihara fasilitas umum.',
     icon: '🚧',
-    banner: 'https://i.ibb.co.com/0jFq70rv/Banner-DOT.png',
+    banner: 'https://i.ibb.co.com/xdM1sG1/Banner-DOT.webp',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
@@ -79,7 +79,7 @@ export const DEPARTMENTS: Department[] = [
     fullName: 'JKC:BAK',
     description: 'Lembaga yudikatif tertinggi yang mengadili perkara pidana dan perdata, menyusun undang-undang dasar kota, menyelenggarakan persidangan, serta menjamin keadilan hukum.',
     icon: '⚖️',
-    banner: 'https://i.ibb.co.com/XfPPnWBj/Banner-BAK.png',
+    banner: 'https://i.ibb.co.com/0V1QxSSL/Banner-BAK.webp',
     color: '#ef4444', // Red
     textColor: 'text-red-500',
     borderColor: 'border-red-500/30',
